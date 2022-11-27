@@ -10,10 +10,12 @@ CREATE DATABASE Storefront_database;
 ### You Have to change the (POSTGRES_USERNAME, POSTGRES_PASSWORD) parameters
 
 DEFAULT_ENV=dev <br />
+PORT=9466 <br />
 POSTGRES_HOST=127.0.0.1 <br />
 POSTGRES_USERNAME=postgres <br />
 POSTGRES_PASSWORD=moznh111 <br />
 POSTGRES_DB=storefront_database <br />
+POSTGRES_PORT=5432 <br />
 
 POSTGRES_TEST_DB=storefront_database_test <br />
 BCRYPTPASSWORD = strong-secret-password <br />
